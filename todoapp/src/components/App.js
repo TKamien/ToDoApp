@@ -1,12 +1,17 @@
 import React, {Component} from 'react';
-import './App.scss';
+import NewTask from './NewTask';
+import ListOfTasks from './ListOfTasks';
+import './App.css';
 
 class App extends Component {
 
   render() {
     return (
       <div className="App">
-        <h1>TODO APP</h1>
+        <h1>ToDo APP</h1>
+        <NewTask/>
+        <ListOfTasks/>
+      
       </div>
     );
   }
