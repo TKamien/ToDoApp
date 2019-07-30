@@ -52,11 +52,11 @@ state = {
             <div className="form">
             <input type="text" placeholder="dodaj zadanie" value={this.state.text} onChange={this.handleText} />
             <input type="checkbox" checked={this.state.checked} id="important" onChange={this.handleCheckbox} />
-            <label htmlFor="important">Zadanie priorytetowe</label><br />
+            <label htmlFor="important">Zadanie priorytetowe</label><br /><br/>
             <label htmlFor="date">Do kiedy wykonać</label>
             <input type="date" value={this.state.date} min={this.minDate} max={maxDate} onChange={this.handleDate} />
-            <br />
-            <button onClick={this.handleClick}>Dodaj</button>
+            <br /><br />
+            <button  onClick={this.handleClick}>Dodaj</button>
           </div>  
         )
     }

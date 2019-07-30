@@ -39,11 +39,11 @@ const ListOfTasks = (props) => {
         {activeTasks.length > 0 ? activeTasks : <p>Brak zadań do wykonania</p>}
       </div>
 
-      <hr />
+      <hr className="Hr" />
  
       <div className="done">
         <h3>Co już zrobiłem <em>({done.length})</em></h3>
-        {done.length > 5 && <span style={{ fontSize: 10 }}>wyświetlonych jest jedynie 5 ostatnich zadań</span>}
+        {done.length > 5 && <span style={{ fontSize: 10 }}>Wyświetlonych jest jedynie 5 ostatnich zadań</span>}
         {doneTasks.slice(0, 5)}
 
       </div>
