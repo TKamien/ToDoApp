@@ -1,13 +1,23 @@
 .App {
   text-align: center;
   padding: 15px;
-  background-color: lightblue;
-  border: 15px solid lightcoral;
+  background-color: #EAE7DC;
+  border: 15px solid #D8C3A5;
   
 }
 
 .Hr{
-border: 5px solid lightcoral;
+border: 5px solid #D8C3A5;
+}
+H1, H3{
+    color: #e85a4f
+}
+label {
+  color:#e98074;
+}
+
+p{
+  color:#8e8d8a;
 }
 
 /* button {
@@ -58,4 +68,18 @@ button:active {
 	top:1px;
 }
 
-
+input {
+  border: 3px solid #8E8D8A; 
+  -webkit-box-shadow: 
+    inset 0 0 8px  rgba(0,0,0,0.1),
+          0 0 16px rgba(0,0,0,0.1); 
+  -moz-box-shadow: 
+    inset 0 0 8px  rgba(0,0,0,0.1),
+          0 0 16px rgba(0,0,0,0.1); 
+  box-shadow: 
+    inset 0 0 8px  rgba(0,0,0,0.1),
+          0 0 16px rgba(0,0,0,0.1); 
+  padding: 6px;
+  background: rgba(255,255,255,0.5);
+  margin: 10px 1px 10px 10px;
+}
